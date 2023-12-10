@@ -8,7 +8,7 @@ const TMDB_TOKEN =
 
 const headers = {
   Authorization: "bearer " + TMDB_TOKEN,
-  accept: "application/json",
+  // accept: "application/json",
 };
 
 export const fetchDataApi = async (url, params) => {
